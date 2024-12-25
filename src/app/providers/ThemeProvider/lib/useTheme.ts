@@ -16,6 +16,7 @@ export function useTheme(): UseThemeResult {
         localStorage.setItem(LOCAL_STORAGE_THEME_KEY, newTheme);
     };
 
+    console.log(theme, 'HOOK');
     return {
         theme,
         toggleTheme,
