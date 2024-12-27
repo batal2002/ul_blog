@@ -1,9 +1,8 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import {
-    ReactNode, MouseEvent, useState, useRef, useEffect, useCallback,
+    MouseEvent, ReactNode, useCallback, useEffect, useRef, useState,
 } from 'react';
 import { Portal } from 'shared/ui/Portal/Portal';
-import { useTheme } from 'app/providers/ThemeProvider';
 import s from './Modal.module.scss';
 
 interface ModalProps {
@@ -24,7 +23,6 @@ export const Modal = (props: ModalProps) => {
         onClose,
         lazy,
     } = props;
-    const { theme } = useTheme();
 
     const [isClosing, setIsClosing] = useState(false);
     const [isMounted, setIsMounted] = useState(false);

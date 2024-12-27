@@ -1,29 +1,38 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "json-server",
-      "userId": 1
+      "userId": "1"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "json-server",
-      "userId": 2
+      "userId": "2"
     }
   ],
   "comments": [
     {
-      "id": 1,
+      "id": "1",
       "body": "some comment",
-      "postId": 1
+      "postId": "1"
     }
   ],
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "admin",
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "first": "Badan",
+    "lastname": "Bat",
+    "age": "22",
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "SPB",
+    "username": "admin",
+    "avatar": "https://fs.gcfiles.net/fileservice/file/thumbnail/h/111550219e18c4627ec6d448a09fae58.jpeg/s/70x70/a/550990/sc/50"
+  }
 }
